@@ -6,3 +6,6 @@ Helpful resources:
 - Amplify CLI documentation: https://docs.amplify.aws/cli
 - More details on this folder & generated files: https://docs.amplify.aws/cli/reference/files
 - Join Amplify's community: https://amplify.aws/community/
+
+Acknowlegements:
+- [LEARN HOW TO CREATE A SERVERLESS EXPRESS APP IN 25 MINUTES (AWS LAMBDA)](https://www.youtube.com/watch?v=aJlvJsdVTLU)
