@@ -1,0 +1,55 @@
+{
+    "paths": [
+        {
+            "name": "/test",
+            "lambdaFunction": "awsamplifyexample",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/test"
+        },
+        {
+            "name": "/item",
+            "lambdaFunction": "awsamplifyexampleExpress",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/item"
+        }
+    ],
+    "resourceName": "awsamplifyexample",
+    "apiName": "awsamplifyexample",
+    "functionArns": [
+        {
+            "lambdaFunction": "awsamplifyexample"
+        },
+        {
+            "lambdaFunction": "awsamplifyexampleExpress"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-awsamplifyexample-dev-100724-authRole",
+        "unAuthRoleName": "amplify-awsamplifyexample-dev-100724-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "awsamplifyexample",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "awsamplifyexampleExpress",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "7b721850"
+}

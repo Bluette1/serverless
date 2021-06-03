@@ -1,0 +1,22 @@
+GET http://localhost:3000/item
+
+###
+POST http://localhost:3000/item
+content-type: application/json
+
+{
+    "title": "test",
+    "id": "8"
+}
+
+###
+GET https://89gifz10b8.execute-api.us-east-2.amazonaws.com/dev/item
+###
+
+POST https://89gifz10b8.execute-api.us-east-2.amazonaws.com/dev/item
+content-type: application/json
+
+{
+    "title": "test",
+    "id": "8"
+}
